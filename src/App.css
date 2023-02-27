@@ -13,6 +13,9 @@ h1 {
 }
 
 .taskBg {
+  --background: linear-gradient(to right, #107171 0%, #021921 100%);
+  background: #f7ba2b;
+  background: var(--background);
   background-color: #107171;
   border-radius: 7px;
   margin-bottom: 20px;
